@@ -8,7 +8,7 @@ int main()
   x=dq.begin();
   x++;
   dq.insert(x,100);
-  for(x=dq.begin();x!=dq.end();x++)
+  for( auto x=dq.rbegin();x!=dq.rend();x++)
   {
     cout<<*x<<" ";
   }
